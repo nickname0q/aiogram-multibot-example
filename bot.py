@@ -3,8 +3,8 @@ import logging
 from typing import List
 
 from aiogram import Bot, Dispatcher, types
-from aiogram.dispatcher.filters.command import Command, CommandObject
-from aiogram.dispatcher.fsm.storage.memory import SimpleEventIsolation
+from aiogram.filters.command import Command, CommandObject
+from aiogram.fsm.storage.memory import SimpleEventIsolation
 from aiogram.exceptions import TelegramUnauthorizedError
 from aiogram.types import BotCommand, BotCommandScopeDefault
 from aiogram.utils.markdown import html_decoration as fmt
